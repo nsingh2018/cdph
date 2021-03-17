@@ -7385,7 +7385,7 @@
                 return r.a.wrap((function(e) {
                     for (;;) switch (e.prev = e.next) {
                         case 0:
-                            return n = s.length > 1 && void 0 !== s[1] && s[1], o = "es" === t ? "es-ES" : "en-US", a = n ? "/common/translations/".concat(t, ".json") : "/portalmicroservices/public/translation/mrxportal/".concat(o), e.next = 5, u.a.get(a);
+                            return n = s.length > 1 && void 0 !== s[1] && s[1], o = "es" === t ? "es-ES" : "en-US", a = n ? "/common/translations/".concat(t, ".json") : "https://portalqa.magellanrx.com/portalmicroservices/public/translation/mrxportal/".concat(o), e.next = 5, u.a.get(a);
                         case 5:
                             if (i = e.sent, l = _(i.data), !n) {
                                 e.next = 12;
