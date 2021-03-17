@@ -171,7 +171,7 @@
             OKTA_CLIENT_ID: r.clientId,
             OKTA_SCOPES: ["openid", "profile", "email", "groups"],
             OKTA_CALLBACK_PATH: "/member/implicit/callback",
-            MICRO_BASE: "/portalmicroservices"
+            MICRO_BASE: "https://portalqa.magellanrx.com/portalmicroservices"
         };
         t.a = o
     },
